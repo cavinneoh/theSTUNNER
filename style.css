@@ -1,0 +1,225 @@
+.text:hover{
+    color:blue;
+    font-size:1.2em;
+}
+.text2{
+	color:#ad33ff;
+	font-family:italic;
+}
+.textDIV{
+	text-align:center;
+	margin-top:5%;
+	font-size:4em;
+	text-shadow: 3px 3px 8px black;
+	font-family:impact;
+	color:#33ffff;
+
+}
+black{
+	font-family:impact;
+	color:#33ffff;
+
+}
+
+a {
+    text-decoration: none;
+    color:black;
+
+}
+
+h2{
+    color:white;
+    font-family:Verdana;
+}
+
+body.color{
+    background: linear-gradient(to right, rgb(46, 92, 237), rgba(225,255,255,255));
+    text-align:justify
+}
+
+.big{
+    height:auto;
+    width:55%;
+    margin:auto;
+    margin-top:10px;
+    background-color:white;
+    border-radius:10px 10px 10px 10px;
+    min-height:750px;
+
+}
+
+.bigger{
+    //height:auto;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    background-color:white;
+    border-radius:10px 10px 10px 10px;
+    min-height:750px;
+    overflow: hidden;
+    padding:10px;
+}
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 70px;
+    background-color:#0C0C5F;
+
+}
+.left{
+    background-color:white;
+    height:auto;
+    width: 18%;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px 10px 10px 10px
+
+}
+
+.choice{
+
+    height:50px;
+    width: 15%;
+    float:left;
+    background-color:#0C0C5F;
+    padding:10px;
+    text-align:center;
+    top: 0;
+    left: 0;
+}
+
+.choice:hover{
+    background:grey;
+}
+.logout{
+
+    height:50px;
+    width: 15%;
+    float:right;
+    background-color:purple;
+    padding:10px;
+    text-align:center;
+    top: 0;
+    left: 0;
+}
+.logout:hover{
+    background:grey;
+}
+
+.click{
+    cursor: pointer;
+}
+.error {color:red;
+        font-style:italic;}
+
+.balltext {
+    color:greenyellow;
+    font-weight:bold;
+    font-size:50px;
+    float:left;}
+.center 
+{
+    margin: auto;
+    width: 35%;
+    height:auto;
+    padding: 10px;
+    background: linear-gradient(to right, rgb(38, 85, 255),rgb(38, 172, 237));
+    box-shadow:10px 10px 40px black;
+    border-radius:15px 15px 15px 15px;	
+}
+
+.button1{
+    width:100%;
+    height:100%;
+    background-color: green;
+    border-radius:5px 5px 5px 5px;
+}
+
+.program {
+    border-collapse: collapse;
+    border:1px solid black;
+    padding:5px;
+
+}
+
+.one{
+    padding:10px;
+    margin: auto;
+}
+
+.logo{
+    width:50%;
+    height:15%;
+
+}
+
+.imgDiv{
+    margin-left:25%;
+    margin-top:7%;
+    clear:both;
+}
+
+.logoGIF{
+    height:250px;
+    width:600px;
+    margin:auto;
+    text-align:center;
+}
+
+
+.button2{
+    font-size:15px;
+    padding:5px;
+    margin-top:10px;
+    margin-right:10px;
+    float:left;
+    background-color:lightgrey;
+    border:2px solid black
+}
+
+.textDIV{
+    text-align:center;
+    margin-top:5%;
+    font-size:2.5em;
+}
+
+.edit{
+    float:left;
+    margin:5px;
+
+    height:300px;
+    width:26%;
+    padding:5px;	
+}
+
+.button3{
+    float:left;
+    font-size:25px;
+}
+
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+
+.column {
+    height: 25px;
+    width:auto;
+    padding:10px;
+    border:1px solid black;  
+    margin-top:5px;
+}
+
+.column.over {
+    border: 5px solid cyan;
+}
